@@ -1,0 +1,5 @@
+apiVersion: skaffold/v2beta20
+kind: Config
+requires:
+- path: ./leeroy-app
+- path: ./leeroy-web
